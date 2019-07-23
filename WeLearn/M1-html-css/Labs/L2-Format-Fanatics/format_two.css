@@ -16,22 +16,66 @@
 
 .container {
   display:grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows:100px 100px;
-  grid-gap: 5px
+  grid-template-columns:repeat(20,1fr);
+  grid-template-rows:repeat(8,1fr);
+  grid-gap: 0px
 }
 
 /* Making border black */
 #b {
   background-color: black;
+
 }
 
 #title {
-  grid-column: span 12;
+  grid-column: span 10;
+  align-items: center;
 }
 
-.photo {
-  grid-column: /*insert format*/;
+#left {
+  grid-row: span 6;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  color: black;
+}
+#top {
+  grid-column: span 18;
+  justify-content: center;
+  color: black;
 }
 
-/* Style remaining grid elements */
+#right {
+  grid-row: span 6;
+  grid-row-start: 1;
+  grid-column-start: 18;
+  color: black;
+}
+
+#bottom {
+  grid-column: span 18;
+  justify-content: center;
+  color: black;
+}
+
+#photo-1 {
+  grid-column:  span 6;
+  grid-row: span 4;
+}
+
+#photo-2 {
+  grid-column: span 6;
+  grid-row: span 4;
+}
+
+#photo-3 {
+  grid-column: span 6;
+  grid-row: span 4;
+}
+
+#caption {
+  grid-column: span 14;
+}
+
+#date {
+  grid-
+}
