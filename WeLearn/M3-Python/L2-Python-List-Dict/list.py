@@ -41,3 +41,28 @@ if demoted_hero in superheroes:
     print("Top 5 heroes:", superheroes)
 else:
     print("Hero not found.")
+
+
+state1 = 'New York'
+abbv1 = 'NY'
+state2 = 'California'
+abbv2 = 'CA'
+state3 = 'Texas'
+abbv3 = 'TX'
+print(abbv2, "is short for", state2)
+
+labeled_states = ['NY: New York', 'CA: California', 'TX: Texas']
+# to see California
+print(labeled_states[1])
+
+states = ['New York', 'California', 'Texas']
+abbvs = ['NY', 'CA', 'TX']
+# to see California
+print(abbvs[1] + "is short for" + states[1])
+
+states = {"NY": "New York", "CA": "California", "TX": "Texas"}
+states = {
+    "NY": "New York",
+    "CA": "California",
+    "TX": "Texas"
+}
